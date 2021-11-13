@@ -1,0 +1,801 @@
+
+
+<!doctype html>
+<html lang="en">
+<head><title>
+	 Binance (BNB) Blockchain Explorer
+</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><meta name="Description" content="BscScan allows you to explore and search the Binance blockchain for transactions, addresses, tokens, prices and other activities taking place on Binance (BNB)" /><meta name="author" content="BscScan.com" /><meta name="keywords" content="binance, explorer, BNB, search, blockchain, crypto, currency" /><meta name="format-detection" content="telephone=no" />
+<meta property="og:title" content=" Binance (BNB) Blockchain Explorer" /> <meta property="og:description" content="BscScan allows you to explore and search the Binance blockchain for transactions, addresses, tokens, prices and other activities taking place on Binance (BNB)" /> <meta property="og:type" content="website" /> <meta property="og:site_name" content="Binance (BNB) Blockchain Explorer" /> <meta property="og:url" content="http://bscscan.com/" /> <meta property="og:image" content="https://BscScan.com/images/brandassets/BscScan-logo-circle.jpg" /> <meta property="og:image:alt" content="Visit BscScan.com" /> <meta name="twitter:card" content="summary" /> <meta name="twitter:title" content=" Binance (BNB) Blockchain Explorer" /> <meta property="twitter:description" content="BscScan allows you to explore and search the Binance blockchain for transactions, addresses, tokens, prices and other activities taking place on Binance (BNB)" /> <meta name="twitter:site" content="@BscScan" /> <meta property="twitter:image" content="https://BscScan.com/images/brandassets/BscScan-logo-circle.jpg" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-46998878-23"></script>
+<script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-46998878-23');
+    </script>
+<script>
+        //Search box text ad
+        //var availableAd = [];
+        //var gotAd = [];
+
+        
+        availableAd = ["<a class='ether-search media rounded p-2' target='_blank' href='https://goto.bscscan.com/rd/1NHAVFKVJZ3DU7N39592958P4' rel='nofollow' title='Links to an External Advertiser site'><div class='mr-2'><img class='u-xs-avatar mr-2' src='/images/gen/aax.jpg' alt='AAX.com'></div><div class='media-body'><h6 class='d-flex align-items-center mb-0'><div class='mr-2'>AAX.com - Earn up to 60% crypto savings</div><span class='d-none d-sm-inline-block bg-white-content small text-secondary rounded-sm border px-1 ml-1'>Sponsored</span><span class='d-inline-block d-sm-none bg-white-content small text-secondary rounded-sm border px-1 ml-1'>Ad</span></h6></div></a>", "<a class='ether-search media rounded p-2' target='_blank' href='https://goto.bscscan.com/rd/7RV7Y469174HZ6QTQ7YE4KKWB' rel='nofollow' title='Links to an External Advertiser site'><div class='mr-2'><img class='u-xs-avatar mr-2' src='/images/gen/cryptocom_defiwallet_20.png?v' alt='Ad'></div><div class='media-body'><h6 class='d-flex align-items-center mb-0'><div class='mr-2'>Crypto.com DeFi Wallet: Manage NFTs & 100+ tokens</div><span class='d-none d-sm-inline-block bg-white-content small text-secondary rounded-sm border px-1 ml-1'>Sponsored</span><span class='d-inline-block d-sm-none bg-white-content small text-secondary rounded-sm border px-1 ml-1'>Ad</span></h6></div></a>", "<a class='ether-search media rounded p-2' target='_blank' href='https://goto.bscscan.com/rd/7RV7Y469174HZ6QTQ7YE4KKWB' rel='nofollow' title='Links to an External Advertiser site'><div class='mr-2'><img class='u-xs-avatar mr-2' src='/images/gen/cryptocom_defiwallet_20.png?v' alt='Ad'></div><div class='media-body'><h6 class='d-flex align-items-center mb-0'><div class='mr-2'>Crypto.com DeFi Wallet: Manage NFTs & 100+ tokens</div><span class='d-none d-sm-inline-block bg-white-content small text-secondary rounded-sm border px-1 ml-1'>Sponsored</span><span class='d-inline-block d-sm-none bg-white-content small text-secondary rounded-sm border px-1 ml-1'>Ad</span></h6></div></a>", "<a class='ether-search media rounded p-2' target='_blank' href='https://goto.bscscan.com/rd/4PZ477RP6QEH2ZT5D53VJYM4I' rel='nofollow' title='Links to an External Advertiser site'><div class='mr-2'><img class='u-xs-avatar mr-2' src='/images/gen/bybit_20.png?v1' alt='Ad'></div><div class='media-body'><h6 class='d-flex align-items-center mb-0'><div class='mr-2'>Bybit - Stake MANA & IMX, get 50% APY!</div><span class='d-none d-sm-inline-block bg-white-content small text-secondary rounded-sm border px-1 ml-1'>Sponsored</span><span class='d-inline-block d-sm-none bg-white-content small text-secondary rounded-sm border px-1 ml-1'>Ad</span></h6></div></a>"];
+        gotAd = [ "ShowAds					" ];
+        
+    </script>
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css?v=21.8.4.3">
+<link rel="stylesheet" href="/assets/vendor/animate.css/animate.min.css?v=21.8.4.3">
+<link rel="stylesheet" href="/assets/vendor/hs-megamenu/src/hs.megamenu.css?v=21.8.4.3">
+<link rel="stylesheet" href="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css?v=21.8.4.3">
+<link rel="stylesheet" href="/assets/vendor/select2/dist/css/select2.min.css?v=21.8.4.3">
+<link rel="stylesheet" href="/assets/css/theme.min.css?v=21.8.4.3">
+<link rel="stylesheet" href="/assets/css/custom.css?v=21.8.4.3">
+<script src="/assets/vendor/jquery/dist/jquery.min.js?v=21.8.4.3"></script>
+<script type="text/javascript" src="/jss/blockies.js?v=21.8.4.3"></script>
+<style>
+        .ui-autocomplete {
+            position: absolute;
+            top: 0;
+            left: 0;
+            cursor: default
+        }
+        .ui-state-active {
+            border-color: #e7eaf3;
+            background: #f8fafd;
+        }
+        body.dark-mode .ui-state-active {
+            background-color: #252525;
+            border-color: #323232;
+        }
+    </style>
+<style type="text/css">#div-advert {line-height: 1.7}@media (max-width: 667px) {#div-advert {min-height: 62px;}}@media (max-width: 767px) {#div-advert {padding-bottom: 20px;}}</style>
+<style>
+        .wrapper {
+            background-color: #fff !important;
+        }
+        .ui-autocomplete {
+            z-index: 1;
+        }
+    </style>
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+<body id="body">
+<div class="wrapper">
+<header id="header" class="u-header">
+<div class="u-header__section py-1">
+<div id="logoAndNav" class="container">
+<nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
+<div class="w-lg-auto">
+<a class="navbar-brand  pt-md-0" href="/" target="_parent" aria-label="BscScan">
+<img id="logo-header" width="160" src="/images/logo-bscscan.svg?v=0.0.3" alt="Binance Logo">
+</a>
+</div>
+<div>
+<button type="button" class="navbar-toggler btn u-hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+<span id="hamburgerTrigger" class="u-hamburger__box">
+<span class="u-hamburger__inner"></span>
+</span>
+</button>
+</div>
+<div class="d-flex flex-column w-100">
+<div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse order-md-2">
+<ul class="navbar-nav u-header__navbar-nav px-2 px-md-0">
+<li id="LI_default" class="nav-item u-header__nav-item active" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+<a class="nav-link u-header__nav-link" href="/" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Home</a>
+</li>
+<li id="LI_blockchain" class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+<a id="blockchainMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Blockchain</a>
+<ul id="blockchainSubMenu" class="hs-sub-menu u-header__sub-menu  u-header__sub-menu--spacer" aria-labelledby="blockchainMegaMenu" style="min-width: 230px;">
+<li id="LI_accountall"><a href="/accounts" class="nav-link u-header__sub-menu-nav-link">Top Accounts</a></li>
+<li class="dropdown-divider"></li>
+<li id="LI12"><a href="/txs" class="nav-link u-header__sub-menu-nav-link">View Txns</a></li>
+<li id="LI16"><a href="/txsPending" class="nav-link u-header__sub-menu-nav-link">View Pending Txns</a></li>
+<li id="LI14"><a href="/txsInternal" class="nav-link u-header__sub-menu-nav-link">View Contract Internal Txns</a></li>
+<li class="dropdown-divider"></li>
+<li id="LI_blocks">
+<a id="navBlocks" class="nav-link u-header__sub-menu-nav-link" href="/blocks" aria-haspopup="true" aria-expanded="false" aria-controls="navSubBlocks">View Blocks</a></li>
+<li id="LI_blocks2">
+<a class="nav-link u-header__sub-menu-nav-link" href="/blocks_forked">Forked Blocks (Reorgs)</a>
+</li>
+<li id="LI8" class="d-none"><a class="nav-link u-header__sub-menu-nav-link" href="/uncles">View Uncles</a></li>
+<li class="divider"></li>
+<li class="dropdown-divider"></li>
+<li id="LI_contract_verified"><a href="/contractsVerified" class="nav-link u-header__sub-menu-nav-link">Verified Contracts</a></li>
+</ul>
+</li>
+<li id="LI_validators" class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+<a id="validatorMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="validatorSubMenu">Validators</a>
+<ul id="validatorSubMenu" class="hs-sub-menu u-header__sub-menu  u-header__sub-menu--spacer" aria-labelledby="validatorMegaMenu" style="min-width: 230px;">
+<li id="LI4"><a class="nav-link u-header__sub-menu-nav-link" href="/validators">Validators Leaderboard</a></li>
+<li id="LI5"><a class="nav-link u-header__sub-menu-nav-link" href="/validatorset">View Validators Set Info</a></li>
+</ul>
+</li>
+<li id="LI_Tokens" class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+<a id="testTokensMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="testTokensSubMenu">Tokens</a>
+<ul id="testTokensSubMenu" class="hs-sub-menu u-header__sub-menu  u-header__sub-menu--spacer" aria-labelledby="testTokensMegaMenu" style="min-width: 230px;">
+<li id="LI18"><a class="nav-link u-header__sub-menu-nav-link" href="/tokens">BEP-20 Tokens By MarketCap</a></li>
+<li id="LI2"><a class="nav-link u-header__sub-menu-nav-link" href="/tokens-volume">BEP-20 Tokens By Volume</a></li>
+<li id="LI3"><a class="nav-link u-header__sub-menu-nav-link" href="/tokentxns">View BEP-20 Transfers</a></li>
+<li class="dropdown-divider"></li>
+<li id="LI42"><a class="nav-link u-header__sub-menu-nav-link" href="/tokens-nft">ERC721 Top Tokens</a></li>
+<li id="LI40"><a class="nav-link u-header__sub-menu-nav-link" href="/tokentxns-nft">View ERC721 Transfers</a></li>
+</ul>
+</li>
+<li id="LI_resources" class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+<a id="resourcesMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="resourcesSubMenu">Resources</a>
+<ul id="resourcesSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="resourcesMegaMenu" style="min-width: 230px;">
+<li id="LI_charts2"><a class="nav-link u-header__sub-menu-nav-link" href="/charts">Charts &amp; Stats</a></li>
+<li id="LI_topstat"><a class="nav-link u-header__sub-menu-nav-link" href="/topstat">Top Statistics</a></li>
+<li id="LI39"><a class="nav-link u-header__sub-menu-nav-link" href="/apis">Developer APIs</a></li>
+<li class="dropdown-divider"></li>
+<li id="LI1"><a class="nav-link u-header__sub-menu-nav-link" href="/yieldfarms">Yield Farms List <sup><span class='badge badge-success font-size-default ml-1'>New</span></sup></a></li>
+</ul>
+</li>
+<li id="LI_Misc" class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="right">
+<a id="moreMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">More</a>
+<div class="hs-mega-menu w-80 u-header__sub-menu" aria-labelledby="moreMegaMenu">
+<div class="row u-header__mega-menu-wrapper">
+<div class="col-sm-6 col-md-4 col-lg mb-4 mb-lg-0">
+<span class="u-header__sub-menu-title">Developers</span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li id="LI11"><a class="nav-link u-header__sub-menu-nav-link" href="https://docs.bscscan.com/" target="_blank"><i class="fa fa-angle-right small mr-1"></i>API Documentation</a></li>
+<li id="LI20"><a class="nav-link u-header__sub-menu-nav-link" href="/verifyContract"><i class="fa fa-angle-right small mr-1"></i>Verify Contract</a></li>
+<li id="LI23"><a class="nav-link u-header__sub-menu-nav-link" href="/opcode-tool"><i class="fa fa-angle-right small mr-1"></i>Byte to Opcode</a></li>
+<li id="LI15"><a class="nav-link u-header__sub-menu-nav-link" href="/pushTx"><i class="fa fa-angle-right small mr-1"></i>Broadcast TXN</a></li>
+<li id="LI7"><a class="nav-link u-header__sub-menu-nav-link" href="/vyper"><i class="fa fa-angle-right small mr-1"></i>Vyper Online Compiler</a></li>
+<li id="LI6"><a class="nav-link u-header__sub-menu-nav-link" href="/contractdiffchecker"><i class="fa fa-angle-right small mr-1"></i>Contract Diff Checker</a></li>
+</ul>
+</div>
+<div class="col-sm-6 col-md-4 col-lg mb-4 mb-lg-0">
+<span class="u-header__sub-menu-title">Explore</span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li id="LI21"><a class="nav-link u-header__sub-menu-nav-link" href="/gastracker"><i class="fa fa-angle-right small mr-1"></i>Gas Tracker<sup><span class='badge badge-success font-size-default ml-1'> New</span></sup></a></li>
+<li id="LI9"><a class="nav-link u-header__sub-menu-nav-link" href="/dextracker"><i class="fa fa-angle-right small mr-1"></i>DEX Tracker <sup><span class='badge badge-success font-size-default ml-1'> New</span></sup></a></li>
+</ul>
+</div>
+<div class="col-sm-6 col-md-4 col-lg mb-4 mb-lg-0">
+<span class="u-header__sub-menu-title">Tools</span>
+<ul class="u-header__sub-menu-nav-group mb-3">
+<li id="LI41"><a class="nav-link u-header__sub-menu-nav-link" href="/labelcloud"><i class="fa fa-angle-right small mr-1"></i>Label Word Cloud</a></li>
+<li id="LI28"><a class="nav-link u-header__sub-menu-nav-link" href="/tokenapprovalchecker"><i class="fa fa-angle-right small mr-1"></i>Token Approvals <sup><span class='badge badge-secondary font-size-default ml-1'> Beta</span></sup></a></li>
+<li id="LI50"><a class="nav-link u-header__sub-menu-nav-link" href="/unitconverter"><i class="fa fa-angle-right small mr-1"></i>Unit Converter </a></li>
+</ul>
+</div>
+</div>
+</div>
+
+</li>
+<li class="u-header__nav-separator"></li>
+<li class="nav-item my-2 my-md-0">
+<a class="u-header__nav-link" href="/login">
+<i class="fa fa-user-circle mr-1"></i>Sign In
+</a>
+</li>
+<li class="u-header__nav-separator"></li>
+<li class="nav-item hs-has-sub-menu u-header__nav-item my-md-n1" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+<a id="explorersWithDropdown" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-toggle--mobile pr-0" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="explorersDropdown">
+<span class="btn btn-sm btn-icon btn-soft-primary cursor-pointer d-none d-md-inline-block">
+<img class="u-xs-avatar btn-icon__inner" src="/images/svg/brands/bnb.svg?v=1.3" alt="Binance Logo1">
+</span>
+<span class="d-inline-block d-md-none">Explorers</span>
+</a>
+<ul id="explorersDropdown" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer dropdown-menu-md-right animated fadeOut" aria-labelledby="explorersWithDropdown" style="min-width: 130px; display: none;">
+<li id="LI_Mainnet"><a class="nav-link u-header__sub-menu-nav-link" href="https://bscscan.com">Bsc Mainnet</a></li>
+<li id="LI_testnet"><a class="nav-link u-header__sub-menu-nav-link" href="https://testnet.bscscan.com">Bsc Testnet</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</header>
+<main id="content" role="main">
+<input type="hidden" name="hdnAgeText" id="hdnAgeText" value="Age" />
+<input type="hidden" name="hdnDateTimeText" id="hdnDateTimeText" value="Date Time (UTC)" />
+<input type="hidden" name="hdnAgeTitle" id="hdnAgeTitle" value="Click to show Age Format" />
+<input type="hidden" name="hdnDateTimeTitle" id="hdnDateTimeTitle" value="Click to show Datetime Format" />
+<section class="bg-dark" style="background-image: url(/images/svg/components/abstract-shapes-20.svg?v=2);">
+<div class="container space-top-2 space-bottom-3">
+
+<div class="row justify-content-between align-items-center mb-4">
+<div class="col-md-12 col-lg-7">
+<div class="pr-lg-4 pr-xll-5">
+<h1 class="h4 mb-3" style="color:#FBDA3C">
+Binance Smart Chain Explorer
+</h1>
+<form class="mb-3" action="/search" method="GET">
+<div class="input-group input-group-shadow">
+<div class="input-group-prepend d-none d-md-block">
+
+<select name="f" class="custom-select custom-arrow-select input-group-text font-size-base filterby text-left">
+<option selected value="0">All Filters</option>
+<option value="1">Addresses</option>
+<option value="2">Tokens</option>
+<option value="3">Name Tags</option>
+<option value="4">Labels</option>
+<option value="5">Websites</option>
+</select>
+
+</div>
+<input id="txtSearchInput" type="text" class="form-control searchautocomplete" placeholder="Search by Address / Txn Hash / Block / Token" aria-describedby="button-header-search" name="q" onkeyup="handleSearchText(this);">
+<input type="hidden" value="" id="hdnSearchText" />
+<input id="hdnIsTestNet" value="False" type="hidden" />
+<div class="input-group-append">
+<button class="btn btn-primary" type="submit">
+<i class="fa fa-search"></i>
+</button>
+</div>
+</div>
+</form>
+
+<p class="text-white-70 mb-0" style="min-height:22px">
+
+<ins data-revive-zoneid="1" data-revive-id="d2636ef8c49e3f153802edf66c0e240f"></ins>
+<script async src="//mct.bscscan.com/www/d/asyncjses.php"></script>
+</p>
+
+</div>
+</div>
+<div class="col-12 col-lg-5">
+
+<div class="d-none d-lg-block text-center pl-lg-4 pl-xll-5">
+<a class="d-inline-block d-sm-none position-relative text-dark" target="_blank" href="https://goto.bscscan.com/rd/YSKQ7I6M5JDDZ22BENS5RWJW1">
+<span class="showcase-banner-text bg-white font-size-1 shadow rounded px-1" style="left: 1rem;">Ad</span><img class="img-fluid rounded" src="/images/gen/bybit_flexistaking_mana_321x101.png" alt="Ads"></a>
+<a class="d-none d-sm-inline-block d-lg-none position-relative text-dark" target="_blank" href="https://goto.bscscan.com/rd/YSKQ7I6M5JDDZ22BENS5RWJW1">
+<span class="showcase-banner-text bg-white font-size-1 shadow rounded px-1" style="left: 1rem;">Ad</span><img class="img-fluid rounded" src="/images/gen/bybit_flexistaking_mana_730x90.png" alt="Ads"></a>
+<a class="d-none d-lg-inline-block position-relative text-dark" target="_blank" href="https://goto.bscscan.com/rd/YSKQ7I6M5JDDZ22BENS5RWJW1">
+<span class="showcase-banner-text bg-white font-size-1 shadow rounded px-1" style="right: 1rem;">Ad</span><img class="img-fluid rounded" src="/images/gen/bybit_flexistaking_mana_321x101.png" alt="Ads"></a>
+
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+<div class="container space-bottom-1 mt-n5">
+
+<div id="ContentPlaceHolder1_mainboxes" class="card mb-4">
+<div class="card-body">
+<div class="row mx-gutters-md-1">
+<div class="col-md-6 col-lg-4">
+<div class="media align-items-center">
+<figure class="u-sm-avatar mr-2">
+<div class="u-xs-avatar mx-auto">
+<img src="/images/svg/brands/bnb-1.svg?v=1.3" alt="BNB">
+</div>
+</figure>
+<div class="media-body">
+<h2 class="font-size-1 text-uppercase text-secondary mb-0">BNB Price</h2>
+<a class='text-size-1 text-link' href='/chart/etherprice' rel='tooltip' data-toggle='tooltip' data-placement='bottom' title='View Historical BNB Price'>$626.48<span class="text-secondary"> @ 0.009816 BTC</span><span class='text-danger small'> (-1.03%)</span></a>
+</div>
+</div>
+<hr class="hr-space-lg">
+<div class="media align-items-center">
+<figure class="u-sm-avatar mr-2">
+<img src="/images/svg/icons/icon-8.svg" alt="Market Cap">
+</figure>
+<div class="media-body">
+<h2 class="font-size-1 text-uppercase text-secondary mb-0">BNB Market Cap on BSC
+</h2>
+<a class='text-size-1 text-link' href='/stat/supply' rel='tooltip' data-placement='bottom' title='Market cap of BNB on Binance Smart Chain, click to Learn More'>$14,039,674,239.00 <span class='text-secondary'>(22,410,411 BNB)</span></a>
+</div>
+</div>
+<hr class="d-block d-md-none hr-space-lg">
+</div>
+<div class="col-md-6 col-lg-4 u-ver-divider u-ver-divider--left u-ver-divider--none-md">
+<div class="media align-items-center">
+<figure class="u-sm-avatar mr-2">
+<img src="/images/svg/icons/icon-2-1.svg?v=1.3" alt="Network Difficulty">
+</figure>
+<div class="media-body">
+<h2 class="font-size-1 text-uppercase text-secondary mb-0">Latest Block</h2>
+<a class='text-size-1 text-link' href="blocks" rel='tooltip' data-placement='bottom' title="The latest Block No"><span id='lastblock'>12603718</span></a>
+<a data-toggle='tooltip' href='/chart/blocktime' class='small text-secondary  text-link' data-placement='right' data-title='Average Block Time (The latest 5000 blocks)'>(<span id='avgblocktime'>3.1s</span>)</a>
+</div>
+<div class="text-right">
+<h2 class="font-size-1 text-uppercase text-secondary mb-0">Transactions</h2>
+<a href='/txs' class='text-size-1 text-link' rel='tooltip' data-toggle='tooltip' data-placement='left' data-html='true' title='Total Transactions Counter<br>(Update every 5 mins)'>1,692.89 M</a><span class='text-secondary small' rel='tooltip' data-toggle='tooltip' data-placement='bottom' title='Transactions per Second'> (117.3 TPS)</span>
+</div>
+</div>
+<hr class="hr-space-lg">
+<div class="media align-items-center">
+<figure class="u-sm-avatar mr-2">
+<img src="/images/svg/icons/icon-51.svg?v=1.5" alt="SVG">
+</figure>
+<div class="media-body">
+<h2 class="font-size-1 text-uppercase text-secondary mb-0">Active Validator</h2>
+<a class="text-size-1 text-link" data-toggle="tooltip" data-placement='left' data-title="View Difficulty Growth Chart" href="/chart/difficulty">
+<a class='text-size-1 text-link' href='validatorset/snapshot/12603704' rel='tooltip' data-placement='bottom' title='Total Active Validator'>21</a></a>
+</div>
+<div class="text-right">
+<h2 class="font-size-1 text-uppercase text-secondary mb-0">Voting Power</h2>
+<a class="text-size-1 text-link" href="/chart/hashrate">
+<a class='text-size-1 text-link' href='/chart/votingpower7d'>16,308,802<b>.</b>02 BNB</a></a>
+</div>
+</div>
+<hr class="d-block d-md-none hr-space-lg">
+</div>
+<div class="col-md-12 col-lg-4 u-ver-divider u-ver-divider--left u-ver-divider--none-lg">
+<hr class="d-none d-md-block d-lg-none my-4">
+<div class="d-flex justify-content-between align-items-center">
+<h2 class="font-size-1 text-uppercase text-secondary mb-0">BSC TRANSACTION HISTORY LAST 14 DAYS</h2>
+<div class="position-relative float-right z-index-2">
+<a id="customchartsinvoker" class="btn btn-xs btn-icon btn-soft-secondary" href="javascript:;" role="button" aria-controls="customcharts" aria-haspopup="true" aria-expanded="false" data-unfold-event="click" data-unfold-target="#customcharts" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+<i class="fa fa-ellipsis-v btn-icon__inner"></i>
+</a>
+<div id="customcharts" class="dropdown-menu dropdown-menu-right dropdown-unfold" aria-labelledby="customchartsinvoker">
+<a class="dropdown-item" href="/chart/tx">View Detailed Chart</a>
+</div>
+</div>
+</div>
+<div>
+<div id="container-1" class="" style="height: 106px;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="d-block d-lg-none text-center pl-lg-4 pl-xll-5 mb-4">
+<a class="d-inline-block d-sm-none position-relative text-dark" target="_blank" href="https://goto.bscscan.com/rd/YSKQ7I6M5JDDZ22BENS5RWJW1">
+<span class="showcase-banner-text bg-white font-size-1 shadow rounded px-1" style="left: 1rem;">Ad</span><img class="img-fluid rounded" src="/images/gen/bybit_flexistaking_mana_321x101.png" alt="Ads"></a>
+<a class="d-none d-sm-inline-block d-lg-none position-relative text-dark" target="_blank" href="https://goto.bscscan.com/rd/YSKQ7I6M5JDDZ22BENS5RWJW1">
+<span class="showcase-banner-text bg-white font-size-1 shadow rounded px-1" style="left: 1rem;">Ad</span><img class="img-fluid rounded" src="/images/gen/bybit_flexistaking_mana_730x90.png" alt="Ads"></a>
+<a class="d-none d-lg-inline-block position-relative text-dark" target="_blank" href="https://goto.bscscan.com/rd/YSKQ7I6M5JDDZ22BENS5RWJW1">
+<span class="showcase-banner-text bg-white font-size-1 shadow rounded px-1" style="right: 1rem;">Ad</span><img class="img-fluid rounded" src="/images/gen/bybit_flexistaking_mana_321x101.png" alt="Ads"></a>
+</div>
+
+
+<div class="row mb-5">
+
+<div class="col-lg-6 mb-4 mb-lg-0">
+<div class="card h-100">
+
+<div class="card-header">
+<h2 class="card-header-title">Latest Blocks</h2>
+</div>
+
+<div class="js-scrollbar card-body overflow-hidden" style="height: 400px;">
+<div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603718'>12603718</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0x295e26495cef6f69dfa69911d9d8e4f3bbadb89b'>Validator: Legend</a></span><a href="/txs?block=12603718" data-toggle='tooltip' title="Transactions in this Block">422 txns </a> <span class="small text-secondary">in 3 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>30222 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>30222 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603717'>12603717</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 20 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0x2465176c461afb316ebc773c61faee85a6515daa'>Validator: TW Staking</a></span><a href="/txs?block=12603717" data-toggle='tooltip' title="Transactions in this Block">337 txns </a> <span class="small text-secondary">in 3 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>28038 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>28038 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603716'>12603716</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 23 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0xee226379db83cffc681495730c11fdde79ba4c0c'>Validator: InfStones</a></span><a href="/txs?block=12603716" data-toggle='tooltip' title="Transactions in this Block">330 txns </a> <span class="small text-secondary">in 3 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>25557 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>25557 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603715'>12603715</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 26 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0xea0a6e3c511bbd10f4519ece37dc24887e11b55d'>Validator: Defibit</a></span><a href="/txs?block=12603715" data-toggle='tooltip' title="Transactions in this Block">463 txns </a> <span class="small text-secondary">in 3 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>42632 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>42632 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603714'>12603714</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 29 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0x70f657164e5b75689b64b7fd1fa275f334f28e18'>Validator: BscScan</a></span><a href="/txs?block=12603714" data-toggle='tooltip' title="Transactions in this Block">401 txns </a> <span class="small text-secondary">in 4 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>2638 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>2638 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603713'>12603713</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 33 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0xe2d3a739effcd3a99387d015e260eefac72ebea1'>Validator: MathWallet</a></span><a href="/txs?block=12603713" data-toggle='tooltip' title="Transactions in this Block">329 txns </a> <span class="small text-secondary">in 3 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>253 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>253 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603712'>12603712</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 36 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0xce2fd7544e0b2cc94692d4a704debef7bcb61328'>Validator: Pexmons</a></span><a href="/txs?block=12603712" data-toggle='tooltip' title="Transactions in this Block">317 txns </a> <span class="small text-secondary">in 3 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>23407 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>23407 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603711'>12603711</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 39 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0xbe807dddb074639cd9fa61b47676c064fc50d62c'>Validator: Certik</a></span><a href="/txs?block=12603711" data-toggle='tooltip' title="Transactions in this Block">297 txns </a> <span class="small text-secondary">in 3 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>22149 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>22149 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603710'>12603710</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 42 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0xb8f7166496996a7da21cf1f1b04d9b3e26a3d077'>Validator: Coinlix</a></span><a href="/txs?block=12603710" data-toggle='tooltip' title="Transactions in this Block">421 txns </a> <span class="small text-secondary">in 3 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>31005 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>31005 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary'><span class='btn-icon__inner text-dark'>Bk</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none'>Block</span> <a href='/block/12603709'>12603709</a><span class='d-sm-block small text-secondary ml-1 ml-sm-0 text-nowrap'> 45 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-flex justify-content-between'><div class='text-nowrap'><span class='d-block mb-1 mb-sm-0'>Validated By <a class='hash-tag text-truncate' href='/address/0xb218c5d6af1f979ac42bc68d98a5a0d796c6ab01'>Validator: Alan Turing</a></span><a href="/txs?block=12603709" data-toggle='tooltip' title="Transactions in this Block">371 txns </a> <span class="small text-secondary">in 3 secs</span><span class='d-inline-block d-sm-none'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>27757 BNB</span></span></div><div class='d-none d-sm-block'><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Block Reward'>0<b>.</b>27757 BNB</span></div></div></div></div>
+</div>
+<div class="card-footer">
+<a class="btn btn-xs btn-block btn-soft-primary" href="/blocks">View all blocks</a>
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-6">
+<div class="card h-100">
+
+<div class="card-header">
+<h2 class="card-header-title">Latest Transactions</h2>
+</div>
+<div class="js-scrollbar card-body overflow-hidden" style="height: 400px;">
+<div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0xc9bf6e63ce37fafc148526837a6cd014e7c02d6229d4afd67c9cfe9adaef3da2'>0xc9bf6e63ce37fafc148526837a6cd014e7c02d6229d4afd67c9cfe9adaef3da2</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0x295e26495cef6f69dfa69911d9d8e4f3bbadb89b'>0x295e26495cef6f69dfa69911d9d8e4f3bbadb89b</a></span><span class='d-sm-block'>To <a href='/address/0x0000000000000000000000000000000000001000' class='hash-tag text-truncate'>0x0000000000000000000000000000000000001000</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0<b>.</b>30222 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0x66268fabd97b98870b67826b64414aec0186b2d2a54d815be137cea562cedf38'>0x66268fabd97b98870b67826b64414aec0186b2d2a54d815be137cea562cedf38</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0x561ba9f93bd7bdfb98b3e565f2121ba9128328b8'>0x561ba9f93bd7bdfb98b3e565f2121ba9128328b8</a></span><span class='d-sm-block'>To <a href='/address/0x10ed43c718714eb63d5aa57b78b54704e256024e' class='hash-tag text-truncate'>0x10ed43c718714eb63d5aa57b78b54704e256024e</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0<b>.</b>18935 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0x21b34bc74513b634fcf00ec12f6b1f181754bb6e04b33df0458cc0d6f2865f40'>0x21b34bc74513b634fcf00ec12f6b1f181754bb6e04b33df0458cc0d6f2865f40</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0x3db86df8a1601c4adf02ad6f20d1686b60a9a424'>0x3db86df8a1601c4adf02ad6f20d1686b60a9a424</a></span><span class='d-sm-block'>To <a href='/address/0x5c50d79adc20630aef122ed2cf953e377cddd0f4' class='hash-tag text-truncate'>0x5c50d79adc20630aef122ed2cf953e377cddd0f4</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0x05a22da6ccf3fc6cc9e32b6f0f4dc26ffbcab6808fa2309244debf37d7932cae'>0x05a22da6ccf3fc6cc9e32b6f0f4dc26ffbcab6808fa2309244debf37d7932cae</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0x6d0a6830f4a5c63e842aff6b00326f2743318dbf'>0x6d0a6830f4a5c63e842aff6b00326f2743318dbf</a></span><span class='d-sm-block'>To <a href='/address/0xcd5f3c15120a1021155174719ec5fcf2c75adf5b' class='hash-tag text-truncate'>0xcd5f3c15120a1021155174719ec5fcf2c75adf5b</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0<b>.</b>00068 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0xbeec714ff9c79ba7533bd1b06cccefbce03cd6f738f0f463b9f40c55c43c84ff'>0xbeec714ff9c79ba7533bd1b06cccefbce03cd6f738f0f463b9f40c55c43c84ff</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0xfb1c879a038cd57c7027e2410b793fdeceb0fce4'>0xfb1c879a038cd57c7027e2410b793fdeceb0fce4</a></span><span class='d-sm-block'>To <a href='/address/0x10ed43c718714eb63d5aa57b78b54704e256024e' class='hash-tag text-truncate'>0x10ed43c718714eb63d5aa57b78b54704e256024e</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0<b>.</b>42734 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0x8e1d5e8a2d5b209c3af03f2feb50b3ff2d84c198cfb256e1c70a4622d24cf29b'>0x8e1d5e8a2d5b209c3af03f2feb50b3ff2d84c198cfb256e1c70a4622d24cf29b</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0xafa03dc39515909a51f7002b183facd5837dc0e5'>0xafa03dc39515909a51f7002b183facd5837dc0e5</a></span><span class='d-sm-block'>To <a href='/address/0x65261f17743fd5fe74c69d03147a1f21f7658db6' class='hash-tag text-truncate'>0x65261f17743fd5fe74c69d03147a1f21f7658db6</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0xeb39f9da292f8cd028f9a52defb49bfa12f74eb995cc2f1242a976e8c5de0173'>0xeb39f9da292f8cd028f9a52defb49bfa12f74eb995cc2f1242a976e8c5de0173</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0xa030ac3db6bb4e6b8c1ae504f09a686f654b1924'>0xa030ac3db6bb4e6b8c1ae504f09a686f654b1924</a></span><span class='d-sm-block'>To <a href='/address/0xadab1c0e8248a4f5de40f7f42c511353d7d9ba49' class='hash-tag text-truncate'>0xadab1c0e8248a4f5de40f7f42c511353d7d9ba49</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0<b>.</b>02514 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0x124ed769af9a30e4050751da9a6707c0706183e7cca158c66226a03ae7459d20'>0x124ed769af9a30e4050751da9a6707c0706183e7cca158c66226a03ae7459d20</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0x01e17d9195128b8bdd5ccac07c3f43185b463e73'>0x01e17d9195128b8bdd5ccac07c3f43185b463e73</a></span><span class='d-sm-block'>To <a href='/address/0x6778f69f83c7d42612500efe0bcd278c112688f6' class='hash-tag text-truncate'>0x6778f69f83c7d42612500efe0bcd278c112688f6</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0x827298fe07829d1f09abaef00b77033c6e17c56fd7f4d9704a54c7e515292f5f'>0x827298fe07829d1f09abaef00b77033c6e17c56fd7f4d9704a54c7e515292f5f</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0xd390d4932fe2395ef443f96d18490e6fc9292b9c'>0xd390d4932fe2395ef443f96d18490e6fc9292b9c</a></span><span class='d-sm-block'>To <a href='/address/0xe0dd2e782c406914971e12243023d61acd5e2958' class='hash-tag text-truncate'>0xe0dd2e782c406914971e12243023d61acd5e2958</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0 BNB</span></div></div></div></div><hr class='hr-space'><div class='row'><div class='col-sm-4'><div class='media align-items-sm-center mr-4 mb-1 mb-sm-0'><div class='d-none d-sm-flex mr-2'><span class='btn btn-icon btn-soft-secondary rounded-circle'><span class='btn-icon__inner text-dark'>Tx</span></span></div><div class='media-body'><span class='d-inline-block d-sm-none mr-1'>TX#</span><a class='hash-tag hash-tag--xs hash-tag-xs-down--md text-truncate' href='/tx/0x1af946ed332547e2e87dd8861be264270727b812394ef6660326e769a2bf2792'>0x1af946ed332547e2e87dd8861be264270727b812394ef6660326e769a2bf2792</a><span class='d-none d-sm-block small text-secondary'>17 secs ago</span></div></div></div><div class='col-sm-8'><div class='d-sm-flex justify-content-between'><div class='text-nowrap mr-4 mb-1 mb-sm-0'><span>From <a class='hash-tag text-truncate' href='/address/0x7024c25a2e0cd46b2b3d0eb50b1c4a0e44f5e452'>0x7024c25a2e0cd46b2b3d0eb50b1c4a0e44f5e452</a></span><span class='d-sm-block'>To <a href='/address/0x092092ec06c5d06775249c689aad880336dd5c8e' class='hash-tag text-truncate'>0x092092ec06c5d06775249c689aad880336dd5c8e</a></span></div><div><span class='u-label u-label--xs u-label--badge-in u-label--secondary text-center text-nowrap' data-toggle='tooltip' title='Amount'>0 BNB</span></div></div></div></div>
+</div>
+<div class="card-footer">
+<a class="btn btn-xs btn-block btn-soft-primary" href="/txs">View all transactions</a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+</main>
+<div id="push"></div>
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" id="emailSubscribeModalBox" aria-hidden="true">
+<div class="modal-dialog modal-sm" role="document">
+<div class="modal-content">
+<div class="modal-body">
+<button type="button" class="close close-md" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+<div class="text-center py-5-alt px-4">
+<div id="emailSubscribeModalBoxText"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="bg-dark py-4" style="background-image: url(/images/svg/components/abstract-shapes-20.svg?v=2);">
+<div class="container">
+<div class="row justify-content-md-between font-size-1 py-2">
+<div class="col-lg-3 mb-4 mb-lg-0">
+<div class="d-flex h-100 flex-column">
+<div class="d-flex align-items-center mb-4">
+<img width="25" src="/images/svg/brands/bnb.svg?v=1.3" alt="Binance Logo">
+<span class="h5 text-white mb-0 ml-3">Powered by Binance Chain</span>
+</div>
+<p class="text-white">
+BscScan is a Block Explorer and Analytics Platform for Binance Smart Chain
+</p>
+
+<div class="d-flex align-items-center mb-4">
+<span class="d-none d-md-inline-block">
+<button type="button" class="btn btn-xss btn-soft-light text-nowrap d-flex align-items-center mr-2" onclick="addNetwork('web3');">
+<img class="mr-1" width="15" src="/images/svg/brands/metamask.svg" alt="Metamask"> Add BSC Network
+</button>
+</span>
+<a class="btn btn-xss btn-soft-light mr-2" href="/settings">
+<i class="fa fa-cogs mr-1"></i>Preferences
+</a>
+<button id="darkModaBtn" type="button" data-toggle="tooltip" data-title="Day/Night Mode" class="btn btn-sm btn-icon btn-soft-light">
+<i id="darkModaBtnIcon" Class="fa fa-moon"></i></button>
+</div>
+
+</div>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+<h4 class="h6 text-white heading-border">Company</h4>
+<ul class="list-group list-group-sm list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+<li><a class="list-group-item" href="/contactusadvertise">Advertise<sup><span class="badge badge-success font-size-default ml-1">New</span></sup></a></li>
+<li><a class="list-group-item" href="/delegate">Delegate to BscScan<sup><span class="badge badge-info font-size-default ml-1">Staking</span></sup></a></li>
+<li><a class="list-group-item" href="/contactus">Contact Us</a></li>
+<li><a class="list-group-item" href="/brandassets">Brand Assets</a></li>
+<li><a class="list-group-item" href="/terms">Terms of Service</a></li>
+</ul>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+<h4 class="h6 text-white heading-border">Community</h4>
+<ul class="list-group list-group-sm list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+<li><a class="list-group-item" href="https://docs.bscscan.com/" target="_blank">API Documentation</a></li>
+<li><a class="list-group-item" target="_blank" href="https://bscscan.freshdesk.com/support/solutions">Knowledge Base</a></li>
+<li><a class="list-group-item" rel="nofollow noopener" target="_blank" href="https://bscscan.freshstatus.io/">Network Status</a></li>
+<li><a class="list-group-item" rel="nofollow noopener" target="_blank" href="https://www.binance.org/en/smartChain">Learn BSC</a></li>
+</ul>
+</div>
+<div class="col-6 col-md-4 col-lg-2 mb-4 mb-lg-0">
+<h4 class="h6 text-white heading-border">Products</h4>
+<ul class="list-group list-group-sm list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+<li><a class="list-group-item" href="/apis" title="Developer APIs">Developer APIs</a></li>
+<li><a class="list-group-item" href="https://etherscan.io" title="Etherscan, Ethereum Explorer" target="_blank">Etherscan</a></li>
+<li><a class="list-group-item" href="https://blockscan.com/" title="Decentralized Web (.ens,.crypto) Search Engine" target="_blank">Blockscan</a></li>
+<li><a class="list-group-item" href="https://diemscan.io/" title="Blockchain Explorer for Diem" target="_blank">DiemScan</a></li>
+<li><a class="list-group-item" href="https://polygonscan.com" title="Polygonscan, Polygon PoS Chain Explorer" target="_blank">Polygonscan</a></li>
+</ul>
+</div>
+</div>
+
+<hr class="opacity-md">
+<div class="row justify-content-between align-items-center font-size-1">
+<div class="col-md-6 mb-2 mb-md-0 d-flex">
+<p class="mb-0 text-white">BscScan © 2020 (BSC-C)
+<span class="mx-1">|</span> ⛏ Built by the same team behind <a class="text-primary" href="https://etherscan.io/" target="_blank"><b>Etherscan</b></a> <span class="mx-1">|</span> <a class="text-white-70" href="/address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f">Donate</a> <i class="fas fa-heart text-danger"></i>
+</p>
+</div>
+<div class="col-md-6 text-md-right">
+<ul class="list-inline mb-0">
+<li class="list-inline-item">
+<a class="btn btn-sm btn-icon btn-soft-light btn-pill" href="/contactus" data-toggle="tooltip" data-placement="top" title="Contact Us">
+<i class="far fa-envelope btn-icon__inner"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-sm btn-icon btn-soft-light btn-pill" href="https://twitter.com/BscScan" rel="nofollow noopener" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter">
+<i class="fab fa-twitter btn-icon__inner"></i>
+</a>
+</li>
+<li class="list-inline-item">
+<a class="btn btn-sm btn-icon btn-soft-light btn-pill" href="https://medium.com/@bscscan" rel="nofollow noopener" target="_blank" data-toggle="tooltip" data-placement="top" title="Medium">
+<i class="fab fa-medium btn-icon__inner"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<div id="divcookie" class="fixed-bottom mx-3" style="display: none;">
+<div class="alert alert-light border shadow-sm p-3" role="alert">
+<div class="d-flex justify-content-center align-items-center">
+<span>
+<p class="text-dark mr-3 mb-2 mb-md-0">
+<i class="far fa-cookie-bite text-secondary mr-1"></i>This website <a href='/terms#cookiestatement' target='_blank'>uses cookies to improve your experience</a> and has an updated <a href='/privacyPolicy'>Privacy Policy</a>.
+</p>
+</span>
+<div>
+<button id="btnCookie" class="btn btn-sm btn-primary text-nowrap py-1" data-dismiss="alert" aria-label="Close">Got It</button>
+</div>
+</div>
+</div>
+</div>
+<a class="js-go-to u-go-to" href="#" data-position='{"bottom": 20, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+<span class="fa fa-arrow-up u-go-to__inner"></span>
+</a>
+<script src="/assets/vendor/jquery-ui/jquery-ui.min.js?v=21.8.4.3"></script>
+<script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js?v=21.8.4.3"></script>
+<script src="/assets/vendor/popper.js/dist/umd/popper.min.js?v=21.8.4.3"></script>
+<script src="/assets/vendor/bootstrap/bootstrap.min.js?v=21.8.4.3"></script>
+
+<script src="/assets/vendor/hs-megamenu/src/hs.megamenu.js?v=21.8.4.3"></script>
+<script src="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js?v=21.8.4.3"></script>
+<script src="/assets/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js?v=21.8.4.3"></script>
+
+<script src="/assets/js/hs.core.js?v=21.8.4.3"></script>
+<script src="/assets/js/components/hs.header.js?v=21.8.4.3"></script>
+<script src="/assets/js/components/hs.unfold.js?v=21.8.4.3"></script>
+<script src="/assets/js/components/hs.malihu-scrollbar.js?v=21.8.4.3"></script>
+<script src="/assets/js/components/hs.focus-state.js?v=21.8.4.3"></script>
+<script src="/assets/js/components/hs.go-to.js?v=21.8.4.3"></script>
+<script src="/assets/js/components/hs.cubeportfolio.js?v=21.8.4.3"></script>
+<script src="/assets/js/custom/combine-js-bottom2.js?v=21.8.4.3"></script>
+
+<script>
+        $(window).on('load', function () {
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+                event: 'hover',
+                pageContainer: $('.container'),
+                breakpoint: 767.98,
+                hideTimeOut: 0
+            });
+            myfn_subscribeNewsletter.startFn("#btnSubscribeNewsletter","#signupSrEmail")
+        });
+
+        $(document).on('ready', function () {
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#header'));
+
+            // initialization of unfold component
+            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
+                afterOpen: function () {
+                    $(this).find('input[type="search"]').focus();
+                }
+            });
+
+            // initialization of malihu scrollbar
+            $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'));
+      
+            // initialization of focus state
+            $.HSCore.components.HSFocusState.init();
+
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
+
+            // initialization of cubeportfolio
+            //$.HSCore.components.HSCubeportfolio.init('.cbp');
+        });
+    </script>
+<script type="text/javascript">
+        var sid = '8441b0b54ea464a56945c3541eef06cc';
+        var strGlobal = sessionStorage.getItem("ShowAs");
+        var cookieconsent = getCookie("bscscan_cookieconsent");
+        if (cookieconsent !== "True") {
+            document.getElementById("divcookie").style.display = "block";
+        };
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) === ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) === 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+        $("#btnCookie").click(function () {
+            $("#divcookie").fadeOut("slow", function () {
+                var d = new Date();
+                d.setTime(d.getTime() + (1095 * 24 * 60 * 60 * 1000));
+                var expires = "expires=" + d.toUTCString();
+                document.cookie = "bscscan_cookieconsent=True" + ";" + expires + ";path=/";;
+            });
+        });
+        function handleSearchText(data) {
+            searchAddress = false;
+            if ($("txtSearchInput").val() == "") {
+                $("#hdnSearchText").val("");                    
+            }
+        }
+    </script>
+<script src="/assets/js/custom/web3-utils.min.js"></script>
+<script src="/assets/js/custom/web3-eth.min.js"></script>
+<script src="/assets/js/custom/web3-providers-http.min.js"></script>
+<script type="text/javascript">
+        var eth;
+        var isTestnet = 'false';
+
+        async function addNetwork(type) {
+            
+            if (type === 'web3') {
+                if (typeof ethereum !== 'undefined') {
+                    eth = new Web3Eth(ethereum);
+                } else if (typeof web3 !== 'undefined') {
+                    eth = new Web3Eth(web3.givenProvider);
+                } else {
+                    eth = new Web3Eth(ethereum);
+                }                
+            }            
+
+            if (typeof eth !== 'undefined') {
+                var network = 0;
+                network = await eth.net.getId();
+                netID = network.toString();
+                var params;
+                if (isTestnet == "false") {
+                    if (netID == "56") {
+                        alert("BSC Network has already been added to Metamask.");
+                        return;
+                    } else {
+                        params = [{
+                            chainId: '0x38',
+                            chainName: 'Binance Smart Chain Mainnet',
+                            nativeCurrency: {
+                                name: 'BNB',
+                                symbol: 'BNB',
+                                decimals: 18
+                            },
+                            rpcUrls: ['https://bsc-dataseed1.binance.org/'],
+                            blockExplorerUrls: ['https://bscscan.com/']
+                        }]
+                    }
+                } else {
+                    if (netID == "97") {
+                        alert("BSC Test Network has already been added to Metamask.");
+                        return;
+                    } else {
+                        params = [{
+                            chainId: '0x61',
+                            chainName: 'Binance Smart Chain Testnet',
+                            nativeCurrency: {
+                                name: 'tBNB',
+                                symbol: 'tBNB',
+                                decimals: 18
+                            },
+                            rpcUrls: ['https://data-seed-prebsc-1-s1.binance.org:8545/'],
+                            blockExplorerUrls: ['https://testnet.bscscan.com/']
+                        }]
+                    }
+                }
+
+                window.ethereum.request({ method: 'wallet_addEthereumChain', params })
+                    .then(() => console.log('Success'))
+                    .catch((error) => console.log("Error", error.message));
+            } else {
+                alert('Unable to locate a compatible web3 browser!');
+            }
+        }
+    </script>
+<script src="/assets/highcharts/js/v6/highcharts.js?v=21.8.4.3"></script>
+<script>
+        var lang_miner = "Validator";
+        var lang_mined_by = "Validated by";
+        var lang_block = "Block";
+        var lang_block_reward = "Block Reward";
+        var lang_sec = "sec";
+        var lang_secs = "secs";
+        var lang_min = "min";
+        var lang_mins = "mins";
+        var lang_from = "From";
+        var lang_to = "To";
+        var lang_amount = "Amount";
+        var lang_tx = "Tx";
+        var lang_bk = "Bk";
+        var lang_ether = "BNB";
+        var lang_txns = "txns";
+        var lang_in_X = "in";
+        var lang_ago = "ago";
+        var lang_secs_ago = "secs ago";
+        var lang_sec_ago = "sec ago";
+        var lang_sec_in = "";
+    </script>
+<script type="text/javascript">
+        $(function () {
+            $('#container-1').highcharts({
+                chart: {
+                    spacingTop: 10,
+                    spacingBottom: 0,
+                    spacingLeft: 0,
+                    spacingRight: 10,
+                },
+
+                title: {
+                    text: '',
+                    align: 'left',
+                },
+
+                xAxis: {
+                    title: { text: '' },
+                    lineWidth: 0,
+                    minorTickLength: 0,
+                    tickLength: 0,
+                    labels: {
+                        step: 7,
+                    },
+                    categories: [
+                        'Oct 29','Oct 30','Oct 31','Nov 1','Nov 2','Nov 3','Nov 4','Nov 5','Nov 6','Nov 7','Nov 8','Nov 9','Nov 10','Nov 11','Nov 12',
+                    ]
+                },
+
+                yAxis: {
+                    labels: {
+                        enabled: true
+                    },
+                    gridLineWidth: 0,
+                    title: {
+                        text: null
+                    }
+                },
+
+                legend: {
+                    enabled: false
+                },
+
+                credits: {
+                    enabled: false
+                },
+
+                tooltip: {
+                    formatter: function () {
+                        return '<span style="font-size:10px">' + this.point.friendlydate + '</span><br><table><tr><td style="padding:0">' +
+                            '<span style="color:' + this.series.color + '">Transactions: </a></span><b>' + this.point.formattedValue + '</b><br>' +
+                            
+                            '</td></tr></table>';
+                    }
+                },
+
+                plotOptions: {
+                    series: {
+                        color: '#1e2022',
+                        enableMouseTracking: true,
+                        lineWidth: 1,
+                        shadow: false,
+                        animation: false,
+                        cursor: 'pointer',
+                        states: {
+                            hover: {
+                                lineWidth: 1
+                            }
+                        },
+                        marker: {
+                            radius: 0
+                        },
+                        point: {
+                            events: {
+                                select: function (e) {
+                                    location.href = 'txs?dt=' + this.options.dt;
+                                }
+                            }
+                        }
+                    },
+                    column: {
+                        pointPadding: 0.1,
+                        borderWidth: 0
+                    }
+                },
+
+                series: [{
+                    name: 'Transactions',
+                    type: 'spline',
+                    data: [{y : 12074976, dt : '1635465600', formattedValue : '12,074,976', friendlydate : 'Friday, October 29, 2021', price : '$530.21'  },{y : 10354008, dt : '1635552000', formattedValue : '10,354,008', friendlydate : 'Saturday, October 30, 2021', price : '$528.72'  },{y : 9281462, dt : '1635638400', formattedValue : '9,281,462', friendlydate : 'Sunday, October 31, 2021', price : '$524.94'  },{y : 10031033, dt : '1635724800', formattedValue : '10,031,033', friendlydate : 'Monday, November 1, 2021', price : '$551.71'  },{y : 11133939, dt : '1635811200', formattedValue : '11,133,939', friendlydate : 'Tuesday, November 2, 2021', price : '$554.94'  },{y : 11298245, dt : '1635897600', formattedValue : '11,298,245', friendlydate : 'Wednesday, November 3, 2021', price : '$568.77'  },{y : 12181896, dt : '1635984000', formattedValue : '12,181,896', friendlydate : 'Thursday, November 4, 2021', price : '$559.50'  },{y : 10458494, dt : '1636070400', formattedValue : '10,458,494', friendlydate : 'Friday, November 5, 2021', price : '$607.77'  },{y : 10586212, dt : '1636156800', formattedValue : '10,586,212', friendlydate : 'Saturday, November 6, 2021', price : '$637.58'  },{y : 10346559, dt : '1636243200', formattedValue : '10,346,559', friendlydate : 'Sunday, November 7, 2021', price : '$649.78'  },{y : 9961142, dt : '1636329600', formattedValue : '9,961,142', friendlydate : 'Monday, November 8, 2021', price : '$653.81'  },{y : 11189730, dt : '1636416000', formattedValue : '11,189,730', friendlydate : 'Tuesday, November 9, 2021', price : '$635.14'  },{y : 12161484, dt : '1636502400', formattedValue : '12,161,484', friendlydate : 'Wednesday, November 10, 2021', price : '$614.68'  },{y : 12179592, dt : '1636588800', formattedValue : '12,179,592', friendlydate : 'Thursday, November 11, 2021', price : '$628.89'  },{y : 12178956, dt : '1636675200', formattedValue : '12,178,956', friendlydate : 'Friday, November 12, 2021', price : '$627.00'  },],
+                    allowPointSelect: true,
+                    pointStart: 0
+                }]
+            });
+        });
+    </script>
+<script type="text/javascript">
+
+        //function setFocus() {
+        //    if (window.innerWidth > 600)
+        //        $("input[name=q]").focus();
+        //}
+        //$(document).ready(function () {
+        //    setFocus();
+        //});
+    </script>
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'6ad50e679cd83366',m:'f.G2zQd6YfZe8hKxzWQDzkXNMIW0S1Z9SX1JuMmyxAY-1636775640-0-Aa4tu0iK9ISOdqryNuFKDdb+CF7A/lCjFcc1qpPJbs5y5FI95Rebr1FoK6WmkSJfHvXFQJXvX4o+XJhNsxxgoOiEjvXF8jJGoMUPJnbSbQ+wehQKo7i9WwbrMbGapIm6/A==',s:[0x743624e3d3,0xf6f22b6ad2],}})();</script></body>
+</html>
